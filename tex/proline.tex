@@ -1,3 +1,19 @@
+In this section our infrastructure is presented. The theory behind it is based on the horseshoe modernization model, which is depicts in Figure~\ref{fig:horseshoe}. As can be seen, this model consist of three steps, \textbf{Reverse Engineering}, (\textit{ii}) \textbf{Restructuring}, and \textbf{Forward Engineering}. The first step is represented by the left side of the horseshoe, it analyzes the legacy system in order to identify the components of the system and their interrelationships. Usually the reverse engineering step builds one or more representations of the legacy system at a higher level of abstraction (PSM). The second one is represented by the curve of the horseshoe since this steps takes the previous system's representation (PSM) and transforms it into another one (PIM) at the same abstraction level. Finally, the last step is represented by the right side of the horseshoe because it generates physical implementations (source-code) of the target system at a low abstraction level from the previously restructured representation of the system.
+
+It worth noticing that KDM is the most essential part of our infrastructure. KDM supplies the representation and management of knowledge extracted by means of reverse engineering from all the different software artifacts of the legacy system. Therefore, the legacy knowledge obtained is then modernized into a target improved system by using the concept of MDD. In this context, the infrastructure is split  into five levels with four transformations among them.
+
+%Figure~\ref{fig:ADM_horse_shoe} depicts the horseshoe modernization model, the infrastructure is based in this model. This model consists of three steps, \textbf{Reverse Engineering}, (\textit{ii}) \textbf{Restructuring}, and \textbf{Forward Engineering}. The first step is represented by the left side of the horseshoe, it analyzes the legacy system in order to identify the components of the system and their interrelationships. Usually the reverse engineering step builds one or more representations of the legacy system at a higher level of abstraction (PSM). The second one is represented by the curve of the horseshoe since this steps takes the previous system's representation (PSM) and transforms it into another one (PIM) at the same abstraction level. Finally, the last step is represented by the right side of the horseshoe because it generates physical implementations (source-code) of the target system at a low abstraction level from the previously restructured representation of the system.
+
+\begin{figure}[!h]
+\centering
+  % Requires \usepackage{graphicx}%left,bottom, right and top
+ \includegraphics[%scale=0.063, clip=true, trim=32.23cm 18cm 5.45cm 13.853cm
+ width=1\textwidth
+ ]{Figuras/horseShoeBOM}
+\caption{Horseshoe modernization model.}
+\label{fig:horseshoe}
+\end{figure}
+
 In this section the Crosscutting Framework Integrated Reuse Environment (CrossFIRE) is presented. Figure~\ref{fig:proline} depicts a screenshot of CrossFIRE.
 
 \begin{figure}[!h]
@@ -54,17 +70,3 @@ Each box contains a name and a description for the required information. The las
 \caption{Reuse Model Editor}
 \label{fig:rm}
 \end{figure}
-
-
-%The ``Persistent Objects'' is a type extension definition, then, it might represent either a class or an interface that should be extended or implemented by a base class or interface. In this case, the application engineer must supply names of classes (or their super-types), which represent objects that should be persisted on the database.
-    
-%The following elements represent framework variabilities that should be chosen or defined by the application developer. ``Value definitions'' represent values that should be informed to the framework and ``Options'' represent predefined options that should be chosen by the application engineer. The application engineer may define the selected option or options by setting true or false for each option.
-
-%``Connection Pools Number'' is an integer value which is used to inform the framework how many database connections should be kept open by the connection pool. 
-%``Dirty Objects Controller'' is a boolean value which is used to define if the dirty objects controller should be active. This is used to update the database records automatically as soon as any attribute belonging to a persistent object is changed by a set method. ``Database Username'' and ``Database Password'' are string values that are used to define the username and password needed to log into the database system. ``Database Connection String'' is a string value which should be used to specify the database connection details, i.e., the database system address, port and database name.
-
-%``Database connection driver'' is an option group, representing possible connections that may be chosen by the application engineer, either native driver connection or via ODBC. ``Database System'' is an option group which represents the implementation of the database management system. The application engineer should select the database system which the application should connect to. ``Obliviousness level'' is an option group that represents the level of obliviousness found on the base application classes. ``Total obliviousness'' means that the base application does not need to call any method in order to save the persistent objects, however, when the ``Partial obliviousness'' is set, the base application must call an method inherited by persistent objects.
-
-% There are three referenced ``Persistent Objects''; their classes will receive methods and crosscutting behavior in order to implement the persistence concern.
-
-%After completing the RM, it is possible to execute a code generator, which is a model to code transformation tool capable of generating reuse code in AspectJ. This reuse code is not show due space limitation.
