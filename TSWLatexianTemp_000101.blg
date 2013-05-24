@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: TSWLatexianTemp_000091.aux
+The top-level auxiliary file: TSWLatexianTemp_000101.aux
 The style file: apalike.bst
 Database file #1: referencias.bib
 Warning--I didn't find a database entry for "Moser:2006"
@@ -10,45 +10,45 @@ Warning--I didn't find a database entry for "Murphy:2011"
 Warning--I didn't find a database entry for "Cherubini:2007"
 Warning--I didn't find a database entry for "Ulrich:2010"
 Warning--I didn't find a database entry for "Ulrich:2010:IST:1841736"
-You've used 2 entries,
+You've used 0 entries,
             1935 wiz_defined-function locations,
-            504 strings with 4488 characters,
-and the built_in function-call counts, 1064 in all, are:
-= -- 109
-> -- 41
-< -- 1
-+ -- 16
-- -- 14
-* -- 89
-:= -- 174
-add.period$ -- 7
-call.type$ -- 2
-change.case$ -- 17
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 41
-empty$ -- 75
-format.name$ -- 16
-if$ -- 217
+            484 strings with 3874 characters,
+and the built_in function-call counts, 17 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 0
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 6
-pop$ -- 15
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 17
+purify$ -- 0
 quote$ -- 0
-skip$ -- 33
+skip$ -- 1
 stack$ -- 0
-substring$ -- 89
-swap$ -- 11
-text.length$ -- 1
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
+type$ -- 0
 warning$ -- 0
-while$ -- 9
+while$ -- 0
 width$ -- 0
-write$ -- 31
+write$ -- 2
 (There were 7 warnings)
