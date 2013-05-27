@@ -1919,7 +1919,7 @@ ATL}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{-0, 81}, {2560, 1497}}</string>
+		<string>{{28, 59}, {1252, 719}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -1933,7 +1933,7 @@ ATL}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-327, 0}, {1212.5, 671}}</string>
+		<string>{{0, 0}, {558.5, 282}}</string>
 		<key>Zoom</key>
 		<real>2</real>
 		<key>ZoomValues</key>
