@@ -1,5 +1,5 @@
 SyncTeX Version:1
-Input:1:/Users/rafaeldurelli/Dropbox/Artigos Elaborados/SBES_Tools/TSWLatexianTemp_000038.tex
+Input:1:/Users/rafaeldurelli/Dropbox/Artigos Elaborados/SBES_Tools/TSWLatexianTemp_000001.tex
 Input:2:/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
 Input:3:/usr/local/texlive/2012/texmf-dist/tex/latex/base/size12.clo
 Input:4:/Users/rafaeldurelli/Dropbox/Artigos Elaborados/SBES_Tools/./sbc-template.sty
@@ -36,7 +36,7 @@ Input:34:/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
 Input:35:/usr/local/texlive/2012/texmf-dist/tex/latex/base/inputenc.sty
 Input:36:/usr/local/texlive/2012/texmf-dist/tex/latex/base/latin9.def
 Input:37:/Users/rafaeldurelli/Dropbox/Artigos Elaborados/SBES_Tools/./tex/defines.tex
-Input:38:/Users/rafaeldurelli/Dropbox/Artigos Elaborados/SBES_Tools/./TSWLatexianTemp_000038.aux
+Input:38:/Users/rafaeldurelli/Dropbox/Artigos Elaborados/SBES_Tools/./TSWLatexianTemp_000001.aux
 Input:39:/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/t1ptm.fd
 Input:40:/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 Input:41:/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
@@ -8012,7 +8012,7 @@ h1,71:5594039,52685371:27970198,0,0
 !40003
 }6
 Input:58:/Users/rafaeldurelli/Dropbox/Artigos Elaborados/SBES_Tools/./tex/acknowledgements.tex
-Input:59:/Users/rafaeldurelli/Dropbox/Artigos Elaborados/SBES_Tools/./TSWLatexianTemp_000038.bbl
+Input:59:/Users/rafaeldurelli/Dropbox/Artigos Elaborados/SBES_Tools/./TSWLatexianTemp_000001.bbl
 !202
 {7
 [1,78:4736286,52685371:28827951,47949085,0
@@ -9224,7 +9224,7 @@ h1,78:5594039,52685371:27970198,0,0
 ]
 !31537
 }7
-Input:60:/Users/rafaeldurelli/Dropbox/Artigos Elaborados/SBES_Tools/./TSWLatexianTemp_000038.aux
+Input:60:/Users/rafaeldurelli/Dropbox/Artigos Elaborados/SBES_Tools/./TSWLatexianTemp_000001.aux
 !107
 Postamble:
 Count:4102
